@@ -1249,11 +1249,15 @@ a {
       -ms-flex-align: center;
           align-items: center; }
   .video__main {
-    height: 720px;
+    height: 100%;
     width: 100%; }
   .video__sedona {
     height: 100%;
     width: 100%; }
+
+@media (min-width: 320px) and (max-width: 576px) {
+  .video {
+    height: 315px; } }
 
 .wrap {
   max-width: 1280px;
