@@ -1237,7 +1237,7 @@ a {
     padding: 0 15px; } }
 
 .video {
-  height: 720px;
+  height: 700px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1257,7 +1257,19 @@ a {
 
 @media (min-width: 320px) and (max-width: 576px) {
   .video {
-    height: 315px; } }
+    height: 325px; } }
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .video {
+    height: 302px; } }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .video {
+    height: 405px; } }
+
+@media (min-width: 992px) and (max-width: 1260px) {
+  .video {
+    height: 540px; } }
 
 .wrap {
   max-width: 1280px;
