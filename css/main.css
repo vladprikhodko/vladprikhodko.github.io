@@ -1825,7 +1825,8 @@ a {
     width: 100%;
     margin: 0 auto; }
   .feedback__contacts-icon {
-    top: 25px; }
+    top: unset;
+    bottom: 0; }
   .feedback__contacts-title {
     display: -webkit-box;
     display: -ms-flexbox;
